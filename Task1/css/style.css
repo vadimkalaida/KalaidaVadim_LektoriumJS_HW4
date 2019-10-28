@@ -1,0 +1,99 @@
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  width: 500px;
+  min-height: 300px;
+  background: #2674BD;
+  border: 3px solid #014F98;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.info_container {
+  width: 80%;
+  min-height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-toptext {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3vh;
+  font-weight: 800;
+  margin-bottom: 2vh;
+}
+
+#nameInput {
+  width: 100%;
+  height: 40px;
+  color: #000;
+  font-weight: 800;
+  font-size: 2vh;
+  text-align: center;
+  border: 3px solid #014F98;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.info_buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.info_buttons-changebtn {
+  width: 250px;
+  height: 40px;
+  background: #fff;
+  border: 3px solid #014F98;
+  border-radius: 5px;
+  color: #000;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .2s;
+}
+
+.info_buttons-changebtn:hover {
+  background: #F0F0F0;
+}
+
+.info_buttons-changebtn:active {
+  background: #D8D8D8;
+}
+
+#coinsInput {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  font-weight: 800;
+  border: 3px solid #014F98;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.info-earnbtn {
+  width: 100px;
+  height: 40px;
+  background: #fff;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  border: 3px solid #014F98;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}

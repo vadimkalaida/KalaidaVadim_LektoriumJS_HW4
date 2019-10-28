@@ -6,9 +6,26 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Title 1</title>
+  <link rel="stylesheet" href="css/basic.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <main>
+    <div class="info">
+      <div class="info_container">
+        <p class="info-toptext">Your name:</p>
+        <input type="text" name="fullName" id="nameInput" readonly>
+        <div class="info_buttons">
+          <a href="#" class="info_buttons-changebtn" onclick="myName.changeFirstName()">Change First Name(10 coins)</a>
+          <a href="#" class="info_buttons-changebtn" onclick="myName.changeLastName()">Change Last Name(15 coins)</a>
+        </div>
+        <input type="text" name="coins" id="coinsInput" readonly>
+        <a href="#" class="info-earnbtn" onclick="earnCoins()">Earn coins</a>
+      </div>
+    </div>
+  </main>
 
 
   <script src="script/index.js"></script>
