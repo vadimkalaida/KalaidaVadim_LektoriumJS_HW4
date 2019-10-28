@@ -96,4 +96,13 @@ main {
   border: 3px solid #014F98;
   border-radius: 5px;
   margin-bottom: 15px;
+  transition: .2s;
+}
+
+.info-earnbtn:hover {
+  background: #F0F0F0;
+}
+
+.info-earnbtn:active {
+  background: #D8D8D8;
 }
