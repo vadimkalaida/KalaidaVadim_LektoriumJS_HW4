@@ -19,6 +19,8 @@ function Name() {
   firstName = firstName.charAt(0).toUpperCase() + firstName.substr(1);
   lastName = lastName.charAt(0).toUpperCase() + lastName.substr(1);
   nameInput.value = firstName + ' ' + lastName;
+  console.log(firstName);
+  console.log(lastName);
 
   return {
     changeFirstName : function () {
@@ -28,6 +30,7 @@ function Name() {
         nameInput.value = firstName + ' ' + lastName;
         coins -= 10;
         coinsInput.value = coins;
+        console.log('New First Name: ', firstName);
       } else {
         alert('You need 10 coins to change your First Name!');
       }
@@ -39,6 +42,7 @@ function Name() {
         nameInput.value = firstName + ' ' + lastName;
         coins -= 15;
         coinsInput.value = coins;
+        console.log('New Last Name:', lastName);
       } else {
         alert('You need 15 coins to change your Last Name!');
       }
@@ -48,3 +52,9 @@ function Name() {
 }
 
 let myName = Name();
+
+console.log('\'firstName\' - first name');
+console.log('\'lastName\' - last name');
+console.log('\'coins\' - value of your coins');
+console.log('\'myName.changeFirstName\' - change first name');
+console.log('\'myName.changeLastName\' - change last name');
