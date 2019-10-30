@@ -1,5 +1,5 @@
-KalaidaVadim_LektoriumJS_HW4 - NOT READY
+KalaidaVadim_LektoriumJS_HW4 - READY
 -
 - Task 1 - ready
 - Task 3 - ready(maybe)
-- Task 4 - not ready
+- Task 4 - ready(maybe)
